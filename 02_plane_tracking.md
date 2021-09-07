@@ -8,17 +8,17 @@ Il est souvent utile de pouvoir visualiser l'environnement créé par AR Foundat
 3. Créer un prefab avec le `AR Default Plane` en le glissant dans les Assets
 4. Supprimer le `AR Default Plane` de la hiérarchie
 5. Glisser le prefab dans le component `AR Plane Manager` du `AR Session Origin` que nous avons ajouter au point #1<br>
-![](images_planes/planes_config.png)
+![](images/planes/planes_config.png)
 
 ## Optionel : Définir un matériel URP pour les planes
 1. Créer un nouveau `Material`
 2. Changer le `Surface Type` du matériel pour `Transparent`
 3. Baisser l'opacité de la couleur<br>
-![](images_planes/material.png)
+![](images/planes/material.png)
 4. Remplacer le matériel utilisé dans le prefab `AR Default Plane`<br>
-![](images_planes/plane_material.png)
+![](images/planes/plane_material.png)
 
 # Point Tracking
 Même chose que Plane Tracking mais avec le `AR Point Manager`
 
-![](images_planes/points_config.png)
+![](images/planes/points_config.png)

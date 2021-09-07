@@ -7,3 +7,5 @@
 5. Changer le scale du visuel à environ 0.05 (1 unité = 1m, donc 0.05 = 5cm
 )
 6. Lier le visuel et le `AR Session Origin` au script Cursor dans l'inspecteur.
+
+![](images/cursor/cursor.jpg)
