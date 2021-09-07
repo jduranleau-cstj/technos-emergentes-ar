@@ -14,10 +14,10 @@
 ## Configurer l'application
 1. Toujours dans la fenêtre `Build Settings`, appuyer sur le bouton `Player Settings` en bas à gauche
 2. Changer les informations comme le `Company Name` et le `Product Name` qui seront utilisées comme nom d'application sur l'appareil.
-3. Changer le `Minimum API Level` pour 24
+3. Changer le `Minimum API Level` pour 24<br>
 ![](images_creation_projet/api_level.png)
 4. Cocher le checkbox `Auto Graphics API`
-5. S'assurer que `Color Space` est à `Gamma` 
+5. S'assurer que `Color Space` est à `Gamma`<br> 
 ![](images_creation_projet/color_space.png)
 
 
@@ -37,7 +37,7 @@ De retour dans la fenêtre `Build Settings`, il faut maintenant choisir l'appare
 1. S'assurer que l'appareil est bien déverouillé
 2. [Activer le mode développeur](https://developer.android.com/studio/debug/dev-options)
 3. [Activer le USB Debugging](https://developer.android.com/studio/debug/dev-options#enable)
-4. Autoriser la communication avec l'ordinateur, sur l'appareil lorsqu'on le connecte et que la demande d'autorisation apparaît
+4. Autoriser la communication avec l'ordinateur, sur l'appareil lorsqu'on le connecte et que la demande d'autorisation apparaît<br>
 ![](images_creation_projet/autorisation.jpg)
 
 5. Au besoin, définir le type de connexion comme `File Transfert` ou `MTP` sur l'appareil
@@ -59,13 +59,13 @@ Dans les `Project Settings`, sous la catégorie `XR Plugin Management`, il faut 
 
 ## Passer le projet au Universal Render Pipeline (URP)
 1. Créer un dossier "URP" dans les assets.
-2. Dans le dossier URP, créer un Forward Renderer (deux fichiers seront créés):
+2. Dans le dossier URP, créer un Forward Renderer (deux fichiers seront créés):<br>
 ![](images_creation_projet/create_urp.png)
 
-3. Sélectionner le Forward Renderer et, dans l'inspecteur, ajouter un `Renderer Feature` nommé `AR Background Renderer Feature`
+3. Sélectionner le Forward Renderer et, dans l'inspecteur, ajouter un `Renderer Feature` nommé `AR Background Renderer Feature`<br>
 ![](images_creation_projet/ar_camera_feature.png)
 
-4. Dans `Project Settings > Graphics`, configurer le projet pour qu'il utilise le nouveau renderer.
+4. Dans `Project Settings > Graphics`, configurer le projet pour qu'il utilise le nouveau renderer.<br>
 ![](images_creation_projet/project_settings_urp.png)
 
 ## Ajouter les essentiels de l'app AR à la hiérarchie du projet
