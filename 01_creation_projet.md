@@ -35,9 +35,11 @@ De retour dans la fenêtre `Build Settings`, il faut maintenant choisir l'appare
 
 ### Si l'appareil **android n'est pas listé**
 1. S'assurer que l'appareil est bien déverouillé
-2. Autoriser la communication avec l'ordinateur, sur l'appareil lorsqu'on le connecte et que la demande d'autorisation apparaît
-3. [Activer le mode développeur](https://developer.android.com/studio/debug/dev-options)
-4. [Activer le USB Debugging](https://developer.android.com/studio/debug/dev-options#enable)
+2. [Activer le mode développeur](https://developer.android.com/studio/debug/dev-options)
+3. [Activer le USB Debugging](https://developer.android.com/studio/debug/dev-options#enable)
+4. Autoriser la communication avec l'ordinateur, sur l'appareil lorsqu'on le connecte et que la demande d'autorisation apparaît
+![](images_creation_projet/autorisation.jpg)
+
 5. Au besoin, définir le type de connexion comme `File Transfert` ou `MTP` sur l'appareil
 
 ## Installer AR Foundation
