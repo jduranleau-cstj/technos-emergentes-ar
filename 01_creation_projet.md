@@ -15,10 +15,13 @@
 1. Toujours dans la fenêtre `Build Settings`, appuyer sur le bouton `Player Settings` en bas à gauche
 2. Changer les informations comme le `Company Name` et le `Product Name` qui seront utilisées comme nom d'application sur l'appareil.
 3. Changer le `Minimum API Level` pour 24<br>
-![](images/creation_projet/api_level.png)
+
+    ![](images/creation_projet/api_level.png)
+
 4. Cocher le checkbox `Auto Graphics API`
-5. S'assurer que `Color Space` est à `Gamma`<br> 
-![](images/creation_projet/color_space.png)
+5. S'assurer que `Color Space` est à `Gamma`<br>
+
+    ![](images/creation_projet/color_space.png)
 
 
 ## Publier l'application 
@@ -30,8 +33,8 @@ De retour dans la fenêtre `Build Settings`, il faut maintenant choisir l'appare
 6. Appuyer sur `Build and Run` en bas à droite
 7. Sélectionner un dossier dans lequel mettre le fichier .apk (idéalement un nouveau dossier `Builds`)
 
-![](images/creation_projet/select_device.png)
-![](images/creation_projet/first_build.jpg)
+    ![](images/creation_projet/select_device.png)
+    ![](images/creation_projet/first_build.jpg)
 
 ### Si l'appareil **android n'est pas listé**
 1. S'assurer que l'appareil est bien déverouillé
@@ -48,7 +51,7 @@ Dans le Package Manager (menu `Window > Package Manager`), installer les package
 2. ARCore XR Plugin
 4. Universal RP
 
-![](images/creation_projet/package_manager.png)
+    ![](images/creation_projet/package_manager.png)
 
 Note: Pour iOS, il faut installer `ARKit XR Plugin` plutôt que `ARCore XR Plugin`
 
@@ -75,7 +78,7 @@ Dans les `Project Settings`, sous la catégorie `XR Plugin Management`, il faut 
 3. Supprimer la `Main Camera`
 4. Ajouter le tag `MainCamera` à la caméra automatiquement créée sous le `AR Session Origin`
 
-![](images/creation_projet/ar_camera.png)
+    ![](images/creation_projet/ar_camera.png)
 
 ## Tester le projet
 
