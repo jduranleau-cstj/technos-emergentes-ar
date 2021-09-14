@@ -9,8 +9,8 @@
 4. [Raycasting en AR et placement d'un curseur](04_cursor.md)
 
 ### Cours 4 et 5
-5. [Instanciation d'objets](05_instanciation.md)
+5. [Instanciation d'objets et qualité du rendu](05_instanciation.md)
 6. [Utiliser le Canvas en AR](06_canvas.md)
 7. [Estimation de luminosité](07_light_estimation.md)
 8. [Détection d'image](08_image_trigger.md)
-9. [Suivi (tracking) d'image](09_instanciation.md)
+9. [Suivi (tracking) d'image](09_image_tracking.md)
