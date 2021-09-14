@@ -14,7 +14,7 @@
     * Changer le `Max Number of Moving Object` au nombre d'objets maximum qui peuvent être visible en même temps.
 
 5. Ajouter le script [MultipleTracking.cs](scripts/MultipleTracking.cs) à notre `AR Session Origin`.
-    * Ajouter les prefabs portant **exactement** le même nom que les tracker au component  `Multiple Tracking` (Attention au scale du prefab qui devrait tourner autour de 0.05)
+    * Ajouter les prefabs au component `Multiple Tracking`. Ils doivent porter **exactement** le même nom que les images de références  (Attention au scale du prefab qui devrait tourner autour de 0.05)
     * Choisir si la rotation doit suivre le tracker ou pas
 
     ![](images/tracking/multiple_tracker.png)
