@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
-public class SpawnAtTarget : MonoBehaviour
+public class SpawnOnTouch : MonoBehaviour
 {
     [SerializeField] private ARRaycastManager _raycastManager;
     [SerializeField] private GameObject _prefabToSpawn;
